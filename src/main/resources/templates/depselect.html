@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{/navbar::head}">
+</head>
+<body>
+	<div th:replace="~{/navbar::navbar}"></div>
+	<div style="text-align: center; padding-top: 100px;">
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button"
+				data-bs-toggle="dropdown" aria-expanded="false">Select
+				Department</button>
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="#">CSE</a> <a class="dropdown-item"
+					href="#">IT</a> <a class="dropdown-item" href="#">EE</a> <a
+					class="dropdown-item" href="#">ME</a> <a class="dropdown-item"
+					href="#">CE</a> <a class="dropdown-item" href="#">ECE</a> <a
+					class="dropdown-item" href="#">AEIE</a> <a class="dropdown-item"
+					href="#">BBE</a> <a class="dropdown-item" href="#">BCA</a> <a
+					class="dropdown-item" href="#">MCA</a> <a class="dropdown-item"
+					href="#">AI-ML</a> <a class="dropdown-item" href="#">CSBS</a>
+			</div>
+		</div>
+	</div>
+	<div th:replace="~{navbar::script}"></div>
+</body>
+</html>
